@@ -9,6 +9,7 @@ import {products} from './data/products';
 import {campaigns} from './data/campaigns';
 import {categories} from './data/categories';
 import {reservations} from './data/reservations';
+import request from './request';
 
 const data = {
     buyer,
@@ -37,4 +38,8 @@ export const getDataById = async (from, id) => {
     const selected = data[from].filter(v => v._id === id)[0];
     if (!selected) return {};
     return clone(selected);
+};
+
+export const apiGetListCampaign = async () => {
+    return request.get('/auth/tiki-campaign');
 };

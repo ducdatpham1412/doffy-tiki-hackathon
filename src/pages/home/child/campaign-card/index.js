@@ -3,7 +3,7 @@ import {navigateTo} from '../../../../helper';
 Component({
     props: {
         status: 'LOADING',
-        campaign: {},
+        item: {},
     },
     methods: {
         handleSelect() {
