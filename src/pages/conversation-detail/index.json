@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+      "conversation-detail": "/child/conversation-detail",
+      "sticky-bottom": "components/sticky-bottom"
+  },
+  "transparentTitle": "always"
+}

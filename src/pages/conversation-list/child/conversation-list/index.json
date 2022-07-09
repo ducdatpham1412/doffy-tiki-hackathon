@@ -2,6 +2,6 @@
   "component": true,
   "componentLifeCycleV2": "YES",
   "usingComponents": {
-    "chat-tag": "pages/home/child/chat-tag"
+    "conversation": "pages/conversation-list/child/conversation"
   }
 }

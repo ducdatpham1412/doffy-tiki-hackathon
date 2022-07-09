@@ -1,6 +1,6 @@
 {
     "usingComponents": {
-        "conversation": "child/conversation"
+        "conversation-list": "child/conversation-list"
     },
     "transparentTitle": "always"
 }

@@ -1,8 +1,0 @@
-  <view class="list-chat">
-    <view class="box-chat">
-      <image class="avatar" src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"></image>
-      <view class="username">Tâm sự</view>
-    </view>
-
-    <view class="line"></view>
-  </view>

@@ -1,0 +1,18 @@
+<view>
+  <!-- <view class="header">
+    <image id="logo" src="/assets/ic_doffy.png"></image>
+    <view id="title">Tin nhắn</view>
+  </view> -->
+  <view class="header">
+    <image class="back-btn" src="/assets/ic_back.png"></image>
+    <text id="title">Tâm sự</text>
+    <image class="report-btn" src="/assets/ic_report.png"></image>
+    <view class="line"></view>
+  </view>
+
+  <view class="chat">
+    <input "box-chat"></input>
+    <image class="send-btn" src="/assets/ic-send.png"></image>  
+  </view>
+
+</view>
