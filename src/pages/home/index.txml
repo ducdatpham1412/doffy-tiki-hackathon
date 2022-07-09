@@ -1,5 +1,1 @@
-<variant-01 banners="{{banners}}"
-            campaigns="{{campaigns}}"
-            status="{{status}}"
-            headerType="{{headerType}}" />
-<sticky-bottom />
+<campaign-card />
