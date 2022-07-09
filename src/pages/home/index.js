@@ -6,6 +6,7 @@ Page({
         headerType: 'DEFAULT',
         campaigns: [1, 2, 3, 4],
         banners: [1, 2, 3],
+        typePost: 'personal',
     },
     async loadData() {
         try {
@@ -43,5 +44,12 @@ Page({
                 ...this.data,
                 headerType: 'SCROLLED',
             });
+    },
+    onChangeTypePost() {
+        this.setData({
+            ...this.data,
+            typePost:
+                this.data.typePost === 'personal' ? 'campaign' : 'personal',
+        });
     },
 });

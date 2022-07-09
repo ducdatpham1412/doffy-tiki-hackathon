@@ -1,11 +1,8 @@
 {
     "usingComponents": {
-        "variant-02": "child/variant-02",
-        "variant-03": "child/variant-03",
-        "variant-04": "child/variant-04",
         "campaigns-list": "child/campaigns-list",
-        "chat-tag-list": "child/chat-tag-list",
-        "sticky-bottom": "components/sticky-bottom"
+        "sticky-bottom": "components/sticky-bottom",
+        "personal-post": "child/personal-post"
     },
     "transparentTitle": "always"
 }

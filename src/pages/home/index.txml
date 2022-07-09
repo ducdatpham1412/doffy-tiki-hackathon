@@ -1,1 +1,13 @@
-<campaigns-list />
+<view class="headerView">
+    <view onTap="onChangeTypePost">
+        <text class="textPersonal">Personal</text>
+    </view>
+    <view>
+        <text class="textCampaign" >Campaign</text>
+    </view>
+</view>
+
+<view tiki:if="{{typePost==='personal'}}">
+    <personal-post />
+</view>
+
