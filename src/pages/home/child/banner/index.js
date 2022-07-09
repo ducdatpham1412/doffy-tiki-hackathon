@@ -1,13 +1,13 @@
-import { navigateTo } from "../../../../helper";
+import {navigateTo} from '../../../../helper';
 
 Component({
-  props: {
-    status: "LOADING",
-    banners: [1, 2, 3, 4],
-  },
-  methods: {
-    onSelect() {
-      navigateTo("web-view-page");
+    props: {
+        status: 'LOADING',
+        banners: [1, 2, 3, 4],
     },
-  },
+    methods: {
+        onSelect() {
+            navigateTo('web-view-page');
+        },
+    },
 });
