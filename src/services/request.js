@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const request = axios.create({
-    baseURL: 'http://localhost:8000',
+    baseURL: 'https://www.doffy.xyz',
     timeout: 5000,
     headers: {
         Accept: '*/*',

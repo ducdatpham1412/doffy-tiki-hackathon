@@ -1,16 +1,17 @@
-import {apiGetListCampaign} from '../../../../services';
+import {apiGetListPersonalReview} from '../../../../services';
 
 Component({
     data: {
         status: 'LOADING',
-        campaigns: [],
+        listReviews: [],
     },
     async didMount() {
         try {
-            const res = await apiGetListCampaign();
+            const res = await apiGetListPersonalReview();
             this.setData({
                 ...this.data,
-                campaigns: res.data,
+                status: 'SUCCESS',
+                listReviews: res.data,
             });
         } catch (err) {
             this.setData({

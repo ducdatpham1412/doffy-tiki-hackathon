@@ -2,7 +2,7 @@
     "usingComponents": {
         "campaigns-list": "child/campaigns-list",
         "sticky-bottom": "components/sticky-bottom",
-        "personal-post": "child/personal-post"
+        "personal-list": "child/personal-list"
     },
     "transparentTitle": "always"
 }

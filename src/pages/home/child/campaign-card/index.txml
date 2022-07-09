@@ -30,7 +30,7 @@
 
         <view class="btnFollowCampaign" onTab="onFollowCampaign">
             <image class="iconFollowCampaign" src="/assets/ic_create_group.png" />
-            <text class="textFollowCampaign">Theo dõi chiến dịch</text>
+            <text class="textFollowCampaign">Theo dõi chiến dịch của shop</text>
         </view>
     </view>
 </view>

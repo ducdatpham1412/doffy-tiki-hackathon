@@ -32,7 +32,9 @@
 }
 .content-image {
   width: 95%;
+  height: 300px;
   border-radius: 10px;
+  background-size: cover;
 }
 
 .content-footer {
@@ -58,6 +60,7 @@
   width: 30px;
   height: 30px;
   align-items: center;
+  border-radius: 20px;
 }
 
 .action {

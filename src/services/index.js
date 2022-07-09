@@ -43,3 +43,7 @@ export const getDataById = async (from, id) => {
 export const apiGetListCampaign = async () => {
     return request.get('/auth/tiki-campaign');
 };
+
+export const apiGetListPersonalReview = async () => {
+    return request.get('/auth/tiki-personal');
+};

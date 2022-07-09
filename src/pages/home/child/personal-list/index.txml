@@ -1,0 +1,3 @@
+<view tiki:for="{{listReviews}}" >
+    <personal-post item={{item}} />
+</view>
