@@ -1,16 +1,16 @@
-import { navigateTo } from "../../../../helper";
+import {navigateTo} from '../../../../helper';
 
 Component({
     props: {
-        status: "LOADING",
+        status: 'LOADING',
         campaign: {},
     },
     methods: {
         handleSelect() {
-            navigateTo("web-view-page");
+            navigateTo('web-view-page');
         },
         handleFollowCampaign() {
-            console.log("Hello user");
+            console.log('Hello user');
         },
     },
 });

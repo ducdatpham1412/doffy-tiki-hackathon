@@ -1,25 +1,25 @@
 Page({
-  data: {
-    status: 'LOADING',
-    headerType: 'DEFAULT',
-  },
+    data: {
+        status: 'LOADING',
+        headerType: 'DEFAULT',
+    },
 
-  loadData() {},
+    loadData() {},
 
-  onLoad(query) {},
+    onLoad(query) {},
 
-  onPageScroll(e) {
-    if (e.scrollTop >= 50)
-      this.setData({
-        ...this.data,
-        headerType: 'SCROLLED',
-      });
-  },
-  onPhoneCall() {
-    my.makePhoneCall({
-      number: '0342909090',
-      success: (res) => {},
-      fail: (e) => {},
-    });
-  },
+    onPageScroll(e) {
+        if (e.scrollTop >= 50)
+            this.setData({
+                ...this.data,
+                headerType: 'SCROLLED',
+            });
+    },
+    onPhoneCall() {
+        my.makePhoneCall({
+            number: '0342909090',
+            success: res => {},
+            fail: e => {},
+        });
+    },
 });

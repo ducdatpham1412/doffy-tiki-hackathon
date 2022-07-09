@@ -28,6 +28,7 @@ module.exports = {
         },
     },
     rules: {
+        'no-undef': 'off',
         'no-unsafe-optional-chaining': 'off',
         'global-require': 'off',
         'react/prop-types': 'off',
