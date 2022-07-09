@@ -3,7 +3,7 @@
         "pages/home",
         "pages/cart",
         "pages/address",
-        "pages/profile",
+        "pages/new-profile",
         "pages/delivery",
         "pages/orders-list",
         "pages/stores-list",
@@ -48,7 +48,7 @@
                 "name": "Campaign",
                 "icon": "assets/ic_create_group.png",
                 "activeIcon": "assets/ic_create_group.png",
-                "pagePath": "pages/profile/index"
+                "pagePath": "pages/new-profile/index"
             }
         ]
     }

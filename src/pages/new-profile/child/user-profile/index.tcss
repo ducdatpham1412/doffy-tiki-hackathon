@@ -1,0 +1,93 @@
+.cover {
+  background-image: linear-gradient(180deg, #20bf7d, #01BAEF);
+  width: calc(100% - 20px);
+  height: 100%;
+  border-radius: 15px;
+  margin-left: 10px;
+  object-fit: contain;
+}
+#avatar {
+  padding-top: 10px;
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#avatar>image {
+  width: 110px;
+  height: 110px;
+}
+
+
+.user-name {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  color: #fff
+}
+
+.user-id {
+  display: block;
+  color: rgb(27, 27, 27);
+  text-align: center;
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin-left:10px;
+  width: calc(100% - 20px);
+}
+
+.contact-size {
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.contact-add {
+  background-color: #ff7843;
+}
+
+.contact-follow {
+  background-color: #F2244E;
+}
+
+.contact-phone {
+  background-color: #415eff;
+}
+
+.info {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:30px;
+  margin-right: 30px;
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.info-common {
+  display: block;
+  text-align: center;
+}
+
+.quantity {
+  font-size: 18px;
+  font-weight: 500;
+}
+

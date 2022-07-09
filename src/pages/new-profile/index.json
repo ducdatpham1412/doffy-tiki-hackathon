@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "user-profile": "/child/user-profile",
+        "sticky-bottom": "components/sticky-bottom"
+    },
+    "transparentTitle": "always"
+}
