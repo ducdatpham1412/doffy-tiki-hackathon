@@ -3,7 +3,7 @@
         "variant-02": "child/variant-02",
         "variant-03": "child/variant-03",
         "variant-04": "child/variant-04",
-        "campaign-card": "child/campaign-card",
+        "campaigns-list": "child/campaigns-list",
         "chat-tag-list": "child/chat-tag-list",
         "sticky-bottom": "components/sticky-bottom"
     },
