@@ -1,9 +1,9 @@
-import { navigateTo } from "../../../../helper";
+import {navigateTo} from '../../../../helper';
 
 Component({
-  methods: {
-    onReserve() {
-      navigateTo("online-reservation");
-    }
-  },
+    methods: {
+        onReserve() {
+            navigateTo('online-reservation');
+        },
+    },
 });
