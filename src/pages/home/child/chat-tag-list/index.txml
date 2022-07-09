@@ -1,0 +1,16 @@
+<view>
+  <view class="header">
+    <image id="logo" src="/assets/ic_doffy.png"></image>
+    <view id="title">Tin nhắn</view>
+  </view>
+
+  <view class="line-head"></view>
+
+  <view>
+    <chat-tag
+      tiki:for="{{chatTags}}"
+      chattag="{{item}}"
+      />
+  </view>
+
+</view>
