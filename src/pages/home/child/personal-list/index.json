@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "personal-post": "pages/home/child/personal-post"
+    }
+}
