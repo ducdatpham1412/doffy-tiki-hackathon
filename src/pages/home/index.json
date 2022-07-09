@@ -3,8 +3,9 @@
         "variant-02": "child/variant-02",
         "variant-03": "child/variant-03",
         "variant-04": "child/variant-04",
-        "sticky-bottom": "components/sticky-bottom",
-        "campaigns-list": "child/campaigns-list"
+        "campaign-card": "child/campaign-card",
+        "chat-tag-list": "child/chat-tag-list",
+        "sticky-bottom": "components/sticky-bottom"
     },
     "transparentTitle": "always"
 }
