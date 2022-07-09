@@ -45,11 +45,16 @@ Page({
                 headerType: 'SCROLLED',
             });
     },
-    onChangeTypePost() {
+    onGoToPersonal() {
         this.setData({
             ...this.data,
-            typePost:
-                this.data.typePost === 'personal' ? 'campaign' : 'personal',
+            typePost: 'personal',
+        });
+    },
+    onGoToCampaign() {
+        this.setData({
+            ...this.data,
+            typePost: 'campaign',
         });
     },
 });
