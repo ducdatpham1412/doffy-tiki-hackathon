@@ -5,14 +5,16 @@
 
     <view class="imageView">
         <view class="imgBackgroundBox">
-            <image class="imageBackground" src="https://media.wired.com/photos/5fb2cc575c9914713ead03de/master/w_1920,c_limit/Gear-Apple-MacBook-Air-top-down-SOURCE-Apple.jpg" />
+            <image class="imageBackground" src={{item.images}} />
         </view>
 
         <view class="imageBox">
-            <image
-                class="image"
-                src="https://media.wired.com/photos/5fb2cc575c9914713ead03de/master/w_1920,c_limit/Gear-Apple-MacBook-Air-top-down-SOURCE-Apple.jpg"
-            />
+            <view>
+                <image
+                    class="image"
+                    src={{item.images}}
+                />
+            </view>
         </view>
 
         <view class="introductionView">
@@ -22,7 +24,7 @@
                 src="https://cdn-icons-png.flaticon.com/512/780/780529.png"
             />
             <view class="contentBox">
-                <text class="textContent">This is content of image</text>
+                <text class="textContent">{{item.content}}</text>
             </view>
         </view>
 
@@ -32,4 +34,3 @@
         </view>
     </view>
 </view>
-
