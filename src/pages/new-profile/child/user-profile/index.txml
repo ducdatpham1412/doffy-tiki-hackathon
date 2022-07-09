@@ -1,0 +1,37 @@
+<view>
+  <!-- <view class="header">
+    <image id="logo" src="/assets/ic_doffy.png"></image>
+    <view id="title">Tin nhắn</view>
+  </view> -->
+  <view class="cover">
+  <view id="avatar">
+    <image src="/assets/ic_avatar.png"></image>
+  </view>
+  <text class="user-name">Peter Nguyen</text>
+  <text class="user-id">@peter_review</text>
+
+  <view class="info">
+    <view>
+      <text class="text info-common">FRIEND</text>
+      <text class="quantity info-common">310</text>
+    </view>
+    
+    <view>
+      <text class="text info-common">FOLLOWING</text>
+      <text class="quantity info-common">8202</text>
+    </view>
+    <view>
+      <text class="text info-common">FOLLOWER</text>
+      <text class="quantity info-common">127</text>
+    </view>
+  </view>
+</view>
+
+  <view class="contact">
+    <view class="contact-add contact-size">Thêm bạn</view>
+    <view class="contact-follow contact-size">Theo dõi</view>
+    <view class="contact-phone contact-size">Liên hệ</view>
+  </view>
+
+
+</view>
