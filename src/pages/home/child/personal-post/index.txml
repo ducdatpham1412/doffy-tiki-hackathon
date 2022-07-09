@@ -1,19 +1,5 @@
-<view>
-  <view class="header">
-    <view class="account-icon">
-      <!-- <image src= "../../../../assets/account-icon.png"></image> -->
-    </view>
-
-    <view class="mode-icon">
-      
-    </view>
-
-    <view class="notification-icon">
-      
-    </view>
-  </view>
-
-  <view class="content">
+<view class="container">
+  <view class="contentView">
     <view class="content-header">
       <image class="camera-icon" src="/assets/ic_camera.png"></image>
       <image class="more-icon" src="/assets/ic_more.png"></image>
@@ -49,46 +35,7 @@
           <view class="sub-action">123</view>
         </view>
       </view>
-
-
-    </view>
-  </view>
-
-  <view class="footer">
-    <view class="user">
-      <view class="user-icon">
-
-      </view>
-
-      <view class="user-name">
-
-      </view>
-
-      <view class="user-status">
-
-      </view>
-    </view>
-
-    <view class="actions">
-      <view class="chat">
-
-      </view>
-
-      <view class="react">
-        
-      </view>
-
-      <view class="comment">
-        
-      </view>
-
-      <view class="chat">
-        
-      </view>
-      
-      <view class="share">
-        
-      </view>
     </view>
   </view>
 </view>
+
