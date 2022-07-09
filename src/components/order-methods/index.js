@@ -1,34 +1,34 @@
-import { navigateTo } from "../../helper";
+import {navigateTo} from '../../helper';
 
 Component({
-  props: {
-    status: "LOADING",
-  },
-  data: {
-    orderMethods: [
-      {
-        code: "STORE_PICKUP",
-        title: "Store pickup",
-        subTitle: "Best quality",
-        image: "/assets/deliver_1.png",
-      },
-      {
-        code: "DELIVERY",
-        title: "Delivery",
-        subTItle: "Always on time",
-        image: "/assets/deliver_2.png",
-      },
-    ],
-  },
-  methods: {
-    onReservationSelect() {
-      navigateTo("online-reservation");
+    props: {
+        status: 'LOADING',
     },
-    onReservationsListSelect() {
-      navigateTo("reservations");
+    data: {
+        orderMethods: [
+            {
+                code: 'STORE_PICKUP',
+                title: 'Store pickup',
+                subTitle: 'Best quality',
+                image: '/assets/deliver_1.png',
+            },
+            {
+                code: 'DELIVERY',
+                title: 'Delivery',
+                subTItle: 'Always on time',
+                image: '/assets/deliver_2.png',
+            },
+        ],
     },
-    onLeftButtonClick() {
-      navigateTo("reservations");
+    methods: {
+        onReservationSelect() {
+            navigateTo('online-reservation');
+        },
+        onReservationsListSelect() {
+            navigateTo('reservations');
+        },
+        onLeftButtonClick() {
+            navigateTo('reservations');
+        },
     },
-  },
 });
