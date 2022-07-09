@@ -28,26 +28,26 @@
         "items": [
             {
                 "name": "Home",
-                "icon": "assets/home.png",
-                "activeIcon": "assets/home_active.png",
+                "icon": "assets/ic_home.png",
+                "activeIcon": "assets/ic_home_active.png",
                 "pagePath": "pages/home/index"
             },
             {
                 "name": "Chat",
                 "icon": "assets/ic_chat.png",
-                "activeIcon": "assets/ic_chat.png",
+                "activeIcon": "assets/ic_chat_active.png",
                 "pagePath": "pages/stores-list/index"
             },
             {
                 "name": "Personal",
                 "icon": "assets/ic_create.png",
-                "activeIcon": "assets/ic_create.png",
+                "activeIcon": "assets/ic_create_active.png",
                 "pagePath": "pages/orders-list/index"
             },
             {
-                "name": "Campaign",
-                "icon": "assets/ic_create_group.png",
-                "activeIcon": "assets/ic_create_group.png",
+                "name": "Profile",
+                "icon": "assets/ic_profile.png",
+                "activeIcon": "assets/ic_profile_active.png",
                 "pagePath": "pages/new-profile/index"
             }
         ]
