@@ -19,7 +19,8 @@
         "pages/reservations",
         "pages/reservation-detail",
         "pages/online-reservation",
-        "pages/reservation-review"
+        "pages/reservation-review",
+        "pages/conversation-list"
     ],
     "window": {
         "titleBarBottomColor": "#fff"
@@ -36,7 +37,7 @@
                 "name": "Chat",
                 "icon": "assets/ic_chat.png",
                 "activeIcon": "assets/ic_chat_active.png",
-                "pagePath": "pages/stores-list/index"
+                "pagePath": "pages/conversation-list/index"
             },
             {
                 "name": "Personal",

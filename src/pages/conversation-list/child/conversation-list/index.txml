@@ -6,11 +6,8 @@
 
   <view class="line-head"></view>
 
-  <view>
-    <chat-tag
-      tiki:for="{{chatTags}}"
-      chattag="{{item}}"
-      />
+  <view tiki:for="{{conversations}}">
+    <conversation />
   </view>
 
 </view>

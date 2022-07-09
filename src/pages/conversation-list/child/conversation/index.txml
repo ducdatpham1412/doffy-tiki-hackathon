@@ -1,0 +1,7 @@
+
+<view class="conversation">
+  <image class="avatar" src="https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"></image>
+  <view class="username">Trò chuyện</view>
+</view>
+
+<view class="line"></view>
